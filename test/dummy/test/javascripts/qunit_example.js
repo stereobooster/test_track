@@ -6,7 +6,7 @@ test("Are you TDD'ing your JS?", function(){
   expect( 1 );
 
   var tests = "No tests D:";
-  equals( tests, "Lots of tests :D", "How many tests?" );
+  equal( tests, "Lots of tests :D", "How many tests?" );
 });
 
 // Use this to test whether or not Sinon is messing with your timers
